@@ -1,0 +1,98 @@
+html{
+height:100%;
+width:100%;
+
+
+}
+
+body{
+height:100%;
+width:100%;
+background-color:#fdfdfd;
+}
+
+.content{
+position:relative;
+background-image:url('https://media.timeout.com/images/102044163/image.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+min-height:90%;
+}
+
+/*header and footer styles*/
+span{
+color: #ffcccc !important;
+}
+
+.userdetails{
+position:absolute;
+top:10%;
+left:0;
+height:90%;
+margin-left:20px;
+background-color:#333;
+text-align:center;
+font-size:1.5em;
+color:white;
+}
+
+#user-icon{
+position:absolute;
+top:8%;
+left:110%;
+height:30px;
+width:30px;
+border-radius:50%;
+color:#fff;
+background-color:#ffcccc;
+font-size:1.12em;
+font-weight:bold;
+text-align:center;
+}
+
+.footer div{
+position:absolute;
+top:100%;
+background-color:#ffa500;
+width:100%;
+max-height:100px;
+}
+
+.footer div p{
+text-align:center;
+
+}
+
+nav{
+position:relative;
+background-color:#333;
+margin-bottom:20px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li{
+float:right;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active{
+background-color:#111;
+}

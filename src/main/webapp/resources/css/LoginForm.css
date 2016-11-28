@@ -1,0 +1,113 @@
+
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+
+
+
+
+.galleryTitle{
+    float: left;
+    margin-top:30%;
+    margin-left:20%;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+
+}
+
+.galleryTitle span{
+color: #ffcccc !important;
+}
+.error{
+width:90%;
+margin-left:5%;
+margin-top:20px;
+border:1px solid #ffcccc;
+background-color:#ffaaaa;
+color:white;
+text-align:center;
+font-weight:bold;
+opacity:0.7;
+}
+.login{
+	position:absolute;
+	top:30%;
+	left:35%;
+	height: 150px;
+	width: 30%;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 70%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 70%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]{
+	width: 70%;
+	height: 35px;
+	background: #ffcccc;
+	opacity:0.8;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
